@@ -1,0 +1,1088 @@
+Dependencies for Project 'template', Target 'Template': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\User\gd32f10x_it.c)(0x6363721E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_it.o --omf_browse .\objects\gd32f10x_it.crf --depend .\objects\gd32f10x_it.d)
+I (..\User\gd32f10x_it.h)(0x61837B9B)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+I (..\System\systick.h)(0x64CB436B)
+I (..\HeaderFiles\HeaderFiles.h)(0x64DB3462)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src\jansson.h)(0x542C88C0)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (D:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src\jansson_config.h)(0x55120380)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\Delay\Delay.h)(0x64CB4B45)
+I (..\Peripheral\USART0\USART0.h)(0x64CB4AEC)
+I (..\Peripheral\ANIIC0\ANIIC0.h)(0x64D60166)
+I (..\HardDriver\Sht30\Sht30.h)(0x64D989B8)
+I (..\Implement\DataProcess\DataProcess.h)(0x64CB4A15)
+I (..\Implement\Mod_Imple\Mod_Imple.h)(0x64CB4A15)
+I (..\Implement\Implement\Implement.h)(0x64CB47F8)
+F (..\User\main.c)(0x6363216F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\HeaderFiles\HeaderFiles.h)(0x64DB3462)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src\jansson.h)(0x542C88C0)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (D:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src\jansson_config.h)(0x55120380)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\System\systick.h)(0x64CB436B)
+I (..\Delay\Delay.h)(0x64CB4B45)
+I (..\Peripheral\USART0\USART0.h)(0x64CB4AEC)
+I (..\Peripheral\ANIIC0\ANIIC0.h)(0x64D60166)
+I (..\HardDriver\Sht30\Sht30.h)(0x64D989B8)
+I (..\Implement\DataProcess\DataProcess.h)(0x64CB4A15)
+I (..\Implement\Mod_Imple\Mod_Imple.h)(0x64CB4A15)
+I (..\Implement\Implement\Implement.h)(0x64CB47F8)
+F (..\Implement\Implement\Implement.c)(0x64D989EF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\implement.o --omf_browse .\objects\implement.crf --depend .\objects\implement.d)
+I (..\Implement\Implement\Implement.h)(0x64CB47F8)
+I (..\HeaderFiles\HeaderFiles.h)(0x64DB3462)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src\jansson.h)(0x542C88C0)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdarg.h)(0x5E8E3CC2)
+I (D:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src\jansson_config.h)(0x55120380)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\math.h)(0x5E8E3CC2)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (..\System\systick.h)(0x64CB436B)
+I (..\Delay\Delay.h)(0x64CB4B45)
+I (..\Peripheral\USART0\USART0.h)(0x64CB4AEC)
+I (..\Peripheral\ANIIC0\ANIIC0.h)(0x64D60166)
+I (..\HardDriver\Sht30\Sht30.h)(0x64D989B8)
+I (..\Implement\DataProcess\DataProcess.h)(0x64CB4A15)
+I (..\Implement\Mod_Imple\Mod_Imple.h)(0x64CB4A15)
+F (..\Peripheral\USART0\USART0.c)(0x64D9809F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\usart0.o --omf_browse .\objects\usart0.crf --depend .\objects\usart0.d)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (..\Protocol\Modbus_slave\Modbus_slave.h)(0x64CB4A82)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\Peripheral\USART0\USART0.h)(0x64CB4AEC)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Peripheral\ANIIC0\ANIIC0.c)(0x64D6054C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\aniic0.o --omf_browse .\objects\aniic0.crf --depend .\objects\aniic0.d)
+I (..\Peripheral\ANIIC0\ANIIC0.h)(0x64D60166)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+I (..\System\systick.h)(0x64CB436B)
+F (..\HardDriver\Sht30\Sht30.c)(0x64D98A2D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\sht30.o --omf_browse .\objects\sht30.crf --depend .\objects\sht30.d)
+I (..\HardDriver\Sht30\Sht30.h)(0x64D989B8)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+I (..\Peripheral\ANIIC0\ANIIC0.h)(0x64D60166)
+I (..\System\systick.h)(0x64CB436B)
+F (..\Delay\Delay.c)(0x64CB43A5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (..\Delay\Delay.h)(0x64CB4B45)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\HeaderFiles\HeaderFiles.h)(0x64DB3462)()
+F (..\System\systick.c)(0x64CB43A5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (..\System\systick.h)(0x64CB436B)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\CMSIS\system_gd32f10x.c)(0x5DDF60C7)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\system_gd32f10x.o --omf_browse .\objects\system_gd32f10x.crf --depend .\objects\system_gd32f10x.d)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_adc.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_adc.o --omf_browse .\objects\gd32f10x_adc.crf --depend .\objects\gd32f10x_adc.d)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_bkp.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_bkp.o --omf_browse .\objects\gd32f10x_bkp.crf --depend .\objects\gd32f10x_bkp.d)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_can.c)(0x5DDF60C8)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_can.o --omf_browse .\objects\gd32f10x_can.crf --depend .\objects\gd32f10x_can.d)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_crc.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_crc.o --omf_browse .\objects\gd32f10x_crc.crf --depend .\objects\gd32f10x_crc.d)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_dac.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_dac.o --omf_browse .\objects\gd32f10x_dac.crf --depend .\objects\gd32f10x_dac.d)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_dbg.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_dbg.o --omf_browse .\objects\gd32f10x_dbg.crf --depend .\objects\gd32f10x_dbg.d)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_dma.c)(0x5DDF60C8)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_dma.o --omf_browse .\objects\gd32f10x_dma.crf --depend .\objects\gd32f10x_dma.d)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_enet.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_enet.o --omf_browse .\objects\gd32f10x_enet.crf --depend .\objects\gd32f10x_enet.d)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+F (..\Library\Source\gd32f10x_exmc.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_exmc.o --omf_browse .\objects\gd32f10x_exmc.crf --depend .\objects\gd32f10x_exmc.d)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_exti.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_exti.o --omf_browse .\objects\gd32f10x_exti.crf --depend .\objects\gd32f10x_exti.d)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_fmc.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_fmc.o --omf_browse .\objects\gd32f10x_fmc.crf --depend .\objects\gd32f10x_fmc.d)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_fwdgt.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_fwdgt.o --omf_browse .\objects\gd32f10x_fwdgt.crf --depend .\objects\gd32f10x_fwdgt.d)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_gpio.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_gpio.o --omf_browse .\objects\gd32f10x_gpio.crf --depend .\objects\gd32f10x_gpio.d)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_i2c.c)(0x5DDF60C6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_i2c.o --omf_browse .\objects\gd32f10x_i2c.crf --depend .\objects\gd32f10x_i2c.d)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_misc.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_misc.o --omf_browse .\objects\gd32f10x_misc.crf --depend .\objects\gd32f10x_misc.d)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+F (..\Library\Source\gd32f10x_pmu.c)(0x5DDF60C8)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_pmu.o --omf_browse .\objects\gd32f10x_pmu.crf --depend .\objects\gd32f10x_pmu.d)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_rcu.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_rcu.o --omf_browse .\objects\gd32f10x_rcu.crf --depend .\objects\gd32f10x_rcu.d)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_rtc.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_rtc.o --omf_browse .\objects\gd32f10x_rtc.crf --depend .\objects\gd32f10x_rtc.d)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_sdio.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_sdio.o --omf_browse .\objects\gd32f10x_sdio.crf --depend .\objects\gd32f10x_sdio.d)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_spi.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_spi.o --omf_browse .\objects\gd32f10x_spi.crf --depend .\objects\gd32f10x_spi.d)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_timer.c)(0x5DDF60C6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_timer.o --omf_browse .\objects\gd32f10x_timer.crf --depend .\objects\gd32f10x_timer.d)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_usart.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_usart.o --omf_browse .\objects\gd32f10x_usart.crf --depend .\objects\gd32f10x_usart.d)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Library\Source\gd32f10x_wwdgt.c)(0x5DDF60C5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\gd32f10x_wwdgt.o --omf_browse .\objects\gd32f10x_wwdgt.crf --depend .\objects\gd32f10x_wwdgt.d)
+I (..\Library\Include\gd32f10x_wwdgt.h)(0x5DDF60C5)
+I (..\CMSIS\gd32f10x.h)(0x64CB4082)
+I (..\CMSIS\core_cm3.h)(0x5DDF60C8)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (..\CMSIS\core_cmInstr.h)(0x547D9682)
+I (..\CMSIS\core_cmFunc.h)(0x547D9682)
+I (..\CMSIS\system_gd32f10x.h)(0x5DDF60C8)
+I (..\User\gd32f10x_libopt.h)(0x5DDF60C3)
+I (..\Library\Include\gd32f10x_fmc.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_pmu.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_bkp.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rcu.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_exti.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_gpio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_crc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dma.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_dbg.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_adc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_dac.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_fwdgt.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_rtc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_timer.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_usart.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_i2c.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_spi.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_sdio.h)(0x5DDF60C5)
+I (..\Library\Include\gd32f10x_exmc.h)(0x5DDF60C4)
+I (..\Library\Include\gd32f10x_can.h)(0x5DDF60C8)
+I (..\Library\Include\gd32f10x_enet.h)(0x5DDF60C4)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdlib.h)(0x5E8E3CC2)
+I (..\Library\Include\gd32f10x_misc.h)(0x5DDF60C4)
+F (..\Startup\startup_gd32f10x_md.s)(0x637C7CB3)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src--pd "__UVISION_VERSION SETA 534" --pd "_RTE_ SETA 1" --pd "GD32F10X_HD SETA 1" --pd "USE_STDPERIPH_DRIVER SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_gd32f10x_md.lst --xref -o .\objects\startup_gd32f10x_md.o --depend .\objects\startup_gd32f10x_md.d)
+F (..\Readme\Readme.txt)(0x64D32E39)()
+F (D:\SOFTWARE\Keil\Keil\Jansson\1.0.0\lib\jansson_CM3LE.lib)(0x5513B7A6)()
+F (RTE\Data_Exchange\jansson_config.c)(0x5513A5C4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CMSIS -I ..\User -I ..\HeaderFiles -I ..\Implement\DataProcess -I ..\Protocol\Json -I ..\Delay -I ..\System -I ..\Check\CRC16 -I ..\HardDriver\Led -I ..\Library\Include -I ..\Peripheral\ADC0 -I ..\Peripheral\FLASH -I ..\Peripheral\FWDG -I ..\Peripheral\TIMER1 -I ..\Peripheral\USART0 -I ..\Peripheral\USART1 -I ..\Protocol\Modbus_slave -I ..\Implement\Implement -I ..\Implement\Mod_Imple -I ..\Check\LRC -I ..\Peripheral\DAC -I ..\Peripheral\ANIIC0 -I ..\Peripheral\IIC0 -I ..\Peripheral\ANSPI0 -I ..\HardDriver\Sht30-I.\RTE\_Template-ID:\SOFTWARE\Keil\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\SOFTWARE\Keil\Keil\Jansson\1.0.0\src-D__UVISION_VERSION="534" -D_RTE_ -DGD32F10X_HD -DUSE_STDPERIPH_DRIVER -D_RTE_ -DGD32F10X_HD -D__FPU_PRESENT-o .\objects\jansson_config.o --omf_browse .\objects\jansson_config.crf --depend .\objects\jansson_config.d)
+I (D:\SOFTWARE\Keil\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
